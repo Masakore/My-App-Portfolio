@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffecebff">
+
+    <TextView android:id="@+id/text1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/title"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="20dp"
+        android:textSize="23sp"
+        style="?android:attr/borderlessButtonStyle"/>
+
+    <Button android:id="@+id/btn1"
+        android:text="@string/spotifystreamer"
+        style="@style/ForButton"
+        android:background="#ffffaf48"/>
+
+    <Button android:id="@+id/btn2"
+        android:text="@string/scoresapp"
+        android:background="#ffffaf48"
+        style="@style/ForButton"/>
+
+    <Button android:id="@+id/btn3"
+        android:text="@string/libraryapp"
+        android:background="#ffffaf48"
+        style="@style/ForButton"/>
+
+    <Button android:id="@+id/btn4"
+        android:text="@string/builditbigger"
+        android:background="#ffffaf48"
+        style="@style/ForButton"/>
+
+    <Button android:id="@+id/btn5"
+        android:text="@string/baconreader"
+        android:background="#ffffaf48"
+        style="@style/ForButton"/>
+
+    <Button android:id="@+id/btn6"
+        android:background="#ffff343a"
+        style="@style/ForButton"/>
+
+</LinearLayout>
