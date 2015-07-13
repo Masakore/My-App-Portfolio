@@ -18,29 +18,26 @@
     <Button android:id="@+id/btn1"
         android:text="@string/spotifystreamer"
         style="@style/ForButton"
-        android:background="#ffffaf48"/>
+        />
 
     <Button android:id="@+id/btn2"
         android:text="@string/scoresapp"
-        android:background="#ffffaf48"
         style="@style/ForButton"/>
 
     <Button android:id="@+id/btn3"
         android:text="@string/libraryapp"
-        android:background="#ffffaf48"
         style="@style/ForButton"/>
 
     <Button android:id="@+id/btn4"
         android:text="@string/builditbigger"
-        android:background="#ffffaf48"
         style="@style/ForButton"/>
 
     <Button android:id="@+id/btn5"
         android:text="@string/baconreader"
-        android:background="#ffffaf48"
         style="@style/ForButton"/>
 
     <Button android:id="@+id/btn6"
+        android:text="@string/capstone"
         android:background="#ffff343a"
         style="@style/ForButton"/>
 

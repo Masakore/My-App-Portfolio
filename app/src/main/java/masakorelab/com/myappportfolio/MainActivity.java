@@ -44,34 +44,24 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
     @Override
     public void onClick(View v) {
+        displayToast(v);
+    }
+
+    public void displayToast(View view) {
+
+        //Because you cannot take text in a button fro view directory
+        Button button = (Button) view;
+
+        String buttonText = (String) button.getText();
+
         Context context = getApplicationContext();
-        String text ="";
 
-        switch (v.getId()) {
-            case R.id.btn1:
-                text = getString(R.string.spotifystreamer);
-                break;
-            case R.id.btn2:
-                text = getString(R.string.scoresapp);
-                break;
-            case R.id.btn3:
-                text = getString(R.string.libraryapp);
-                break;
-            case R.id.btn4:
-                text = getString(R.string.builditbigger);
-                break;
-            case R.id.btn5:
-                text = getString(R.string.baconreader);
-                break;
-            case R.id.btn6:
-                text = getString(R.string.capstone);
-                break;
-        }
-
+        CharSequence text = getString(R.string.open_ap) + buttonText;
 
         int duration = Toast.LENGTH_SHORT;
 
         Toast toast = Toast.makeText(context, text, duration);
         toast.show();
+
     }
 }
